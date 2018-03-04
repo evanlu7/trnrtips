@@ -50,7 +50,6 @@ $(document).ready(function() {
 
 $(document).ready(function(){       
             var scroll_pos = 0;
-            $("nav").css('background-color', 'transparent');
             $(document).scroll(function() { 
                 scroll_pos = $(this).scrollTop();
                 if(scroll_pos > 50) {
