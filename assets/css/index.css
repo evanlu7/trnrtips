@@ -1,7 +1,51 @@
 /*start new trnrtips edits*/
+@media only screen and (max-width: 3000px) { /*CSS for desktop*/
+ 
+#main-pic{
+  position: relative;
+  bottom: 50px;
+  max-width: 50%;
+  max-height: 50%;
+  opacity:1;
+  z-index: -5;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
 
 
 
+ }
+
+@media only screen and (max-width: 1000px) { /*CSS for smaller screens*/ 
+
+
+}
+
+@media only screen and (max-width: 480px) { /*CSS for mobile*/ 
+#main-pic{
+  position: relative;
+  bottom: 50px;
+  max-width: 100%;
+  max-height: 100%;
+  opacity:1;
+  z-index: -5;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+
+}
+
+
+
+section {
+
+}
+
+
+footer {
+  width:100%;
+  max-width: 100%;
+}
 
 #row1 {
   position: relative;
@@ -23,6 +67,7 @@ a:hover, a:focus {
   background-color: #F4F7FA;
   max-width: 100%;
   max-height:100%;
+  width: 100%;
 }
 
 
@@ -30,11 +75,14 @@ a:hover, a:focus {
 .social {
   display: flex;
   margin: 0 -20px;
-  padding: 20px;
+  max-width: 100%;
+  max-height:100%;
 }
 
 .item {
   margin: 0 20px;
+   width: 33%;
+   max-width: 180px;
 }
 
 #facebook {
@@ -53,24 +101,24 @@ a:hover, a:focus {
 
 }
 
-#logo {
-  position: relative;
-  bottom: 50px;
-  max-height: 50%;
-  max-width: 50%;
-}
+
 
 .navbar {
   
   max-height:120px;
   background-color: transparent;
 }
-
+#logo {
+  position: relative;
+  bottom: 50px;
+  max-height: 100%;
+  max-width: 100%;
+}
 #main-pic{
   position: relative;
   bottom: 50px;
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 100%;
+  max-height: 100%;
   opacity:1;
   z-index: -5;
   border-style: solid;
@@ -95,32 +143,27 @@ a:hover, a:focus {
 }
 
 #section2 {
-  height: 800px;
+  height: 725px;
 }
 
 
 #section3 {
-  height: 200px;
+  height: 125px;
+  padding: 10px;
 }
-/*end new trnrtips edits*/
-
-/*for intro animations*/
 
 .fadeOut {
   animation-delay: 4s;
   height: 0px;
+  
 }
 
-.slideOutLeft {
-  animation-delay: 4s;
-  height: 0px;
 
-}
 
 .fadeIn {
   animation-delay: 4s;
   animation-duration: 1s;
-  height: 10px;
+  max-height: 0px;
 }
 
 .fadeInDown {
@@ -134,6 +177,11 @@ a:hover, a:focus {
   margin-left: 40px;
 
 }
+
+/*end new trnrtips edits*/
+
+/*for intro animations*/
+
 
 /*end animation section*/
 
