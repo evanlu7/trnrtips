@@ -1,5 +1,8 @@
 /*start new trnrtips edits*/
 
+
+
+
 #row1 {
   position: relative;
   bottom: 200px;
@@ -24,17 +27,35 @@ a:hover, a:focus {
 
 
 
-#social {
+.social {
+  display: flex;
+  margin: 0 -20px;
+  padding: 20px;
+}
+
+.item {
+  margin: 0 20px;
+}
+
+#facebook {
+ 
+}
+
+#twitter {
 
 }
 
-i {
-  max-height: 90%;
-  max-width: 90%;
+#youtube {
+
+}
+
+#instagram {
+
 }
 
 #logo {
   position: relative;
+  bottom: 50px;
   max-height: 50%;
   max-width: 50%;
 }
@@ -47,6 +68,7 @@ i {
 
 #main-pic{
   position: relative;
+  bottom: 50px;
   max-width: 50%;
   max-height: 50%;
   opacity:1;
@@ -70,6 +92,10 @@ i {
   border-width: 5px;
   border-color: black;
 
+}
+
+#section2 {
+  height: 800px;
 }
 
 
