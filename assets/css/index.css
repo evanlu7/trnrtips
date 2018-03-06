@@ -1,357 +1,296 @@
-/*start new trnrtips edits*/
-@media only screen and (max-width: 3000px) { /*CSS for desktop*/
- 
-#main-pic{
-  position: relative;
-  bottom: 50px;
-  max-width: 50%;
-  max-height: 50%;
-  opacity:1;
-  z-index: -5;
-  border-style: solid;
-  border-width: 3px;
-  border-color: black;
+@media only screen and (max-width: 3000px) {
+  /*CSS for desktop*/
+   /*start new trnrtips edits*/ 
+   footer {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #row1 {
+    position: relative;
+    bottom: 200px;
+  }
+
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  a:hover,
+  a:focus {
+    color: inherit;
+    text-decoration: underline;
+  }
+
+
+  .page {
+    background-color: #F4F7FA;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+  }
 
 
 
- }
+  .social {
+    display: flex;
+    margin: 0 -20px;
+    max-width: 100%;
+    max-height: 100%;
+  }
 
-@media only screen and (max-width: 1000px) { /*CSS for smaller screens*/ 
+  .item {
+    margin: 0 20px;
+    width: 33%;
+    max-width: 180px;
+  }
 
+  .navbar {
 
-}
+    max-height: 120px;
+    background-color: transparent;
+  }
+  #logo {
+    position: relative;
+    bottom: 50px;
+    max-height: 50%;
+    max-width: 50%;
+  }
+  #main-pic {
+    position: relative;
+    bottom: 50px;
+    max-width: 50%;
+    max-height: 50%;
+    opacity: 1;
+    z-index: -5;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+  }
 
-@media only screen and (max-width: 480px) { /*CSS for mobile*/ 
-#main-pic{
-  position: relative;
-  bottom: 50px;
-  max-width: 100%;
-  max-height: 100%;
-  opacity:1;
-  z-index: -5;
-  border-style: solid;
-  border-width: 3px;
-  border-color: black;
+  #infoBox {
+    background-color: white;
+    padding: 0px;
+    width: 100%;
+    height: 325px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+  }
 
-}
-
-
-
-section {
-
-}
-
-
-footer {
-  width:100%;
-  max-width: 100%;
-}
-
-#row1 {
-  position: relative;
-  bottom: 200px;
-}
-
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-a:hover, a:focus {
-  color: inherit;
-  text-decoration: underline;
-}
-
-
-.page {
-  background-color: #F4F7FA;
-  max-width: 100%;
-  max-height:100%;
-  width: 100%;
-}
+  #section2 {
+    height: 725px;
+  }
 
 
+  #section3 {
+    height: 125px;
+    padding: 10px;
+  }
 
-.social {
-  display: flex;
-  margin: 0 -20px;
-  max-width: 100%;
-  max-height:100%;
-}
-
-.item {
-  margin: 0 20px;
-   width: 33%;
-   max-width: 180px;
-}
-
-#facebook {
- 
-}
-
-#twitter {
-
-}
-
-#youtube {
-
-}
-
-#instagram {
-
-}
+  .fadeOut {
+    animation-delay: 4s;
+    height: 0px;
+  }
 
 
 
-.navbar {
-  
-  max-height:120px;
-  background-color: transparent;
-}
-#logo {
-  position: relative;
-  bottom: 50px;
-  max-height: 100%;
-  max-width: 100%;
-}
-#main-pic{
-  position: relative;
-  bottom: 50px;
-  max-width: 100%;
-  max-height: 100%;
-  opacity:1;
-  z-index: -5;
-  border-style: solid;
-  border-width: 3px;
-  border-color: black;
+  .fadeIn {
+    animation-delay: 4s;
+    animation-duration: 1s;
+    max-height: 0px;
+  }
 
-  
+  .fadeInDown {
+    animation-delay: 1s;
+    animation-duration: 1s;
+  }
 
+  .fadeInUp {
+    animation-delay: 6s;
+    margin-left: 40px;
+  }
+  /*end new trnrtips edits*/
+  /*for intro animations*/
+  /*end animation section*/
+  #alignRight {
+    align-items: flex-end;
+  }
 
-}
-
-#infoBox 
-  {
-  background-color: white;
-  padding: 0px;
-  width:100%;
-  height: 325px;
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
-
-}
-
-#section2 {
-  height: 725px;
-}
-
-
-#section3 {
-  height: 125px;
-  padding: 10px;
-}
-
-.fadeOut {
-  animation-delay: 4s;
-  height: 0px;
-  
-}
-
-
-
-.fadeIn {
-  animation-delay: 4s;
-  animation-duration: 1s;
-  max-height: 0px;
-}
-
-.fadeInDown {
-  animation-delay: 1s;
-  animation-duration: 1s;
-
-}
-
-.fadeInUp {
-  animation-delay: 6s;
-  margin-left: 40px;
-
-}
-
-/*end new trnrtips edits*/
-
-/*for intro animations*/
-
-
-/*end animation section*/
-
-
-
-
-#alignRight {
-  	align-items: flex-end;
-}
-
-#btnLogout {
+  #btnLogout {
     position: absolute;
     left: 600px;
-}
-
-#financeChartExample {
-    height: 500px;
-}
-
-
-
-.navbar-brand {
-  padding: 0 15px;
-  height: 80px;
-  line-height: 80px;
-
-}
-
-.navbar-brand a:hover {
-
-
-}
-
-.navbar-toggle {
-  /* (80px - button height 34px) / 2 = 23px */
-  margin-top: 23px;
-  padding: 9px 10px !important;
-}
-
-@media (min-width: 768px) {
-  .navbar-nav > li > a {
-    /* (80px - line-height of 27px) / 2 = 26.5px */
-    padding-top: 0px;
-    padding-bottom: 0px;
-    line-height: 0px;
-
   }
-}
+
+  #financeChartExample {
+    height: 500px;
+  }
 
 
 
-.large-text {
-	font-size: 2rem;
-}
+  .navbar-brand {
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+  }
 
-.blue-text {
-	color: #2b90d9;
-}
+  .navbar-brand a:hover {}
 
-.get-details:hover {
-  color: #2b90d9;
-  cursor: pointer;
-}
+  .navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 23px;
+    padding: 9px 10px !important;
+  }
+
+  @media (min-width: 768px) {
+    .navbar-nav>li>a {
+      /* (80px - line-height of 27px) / 2 = 26.5px */
+      padding-top: 0px;
+      padding-bottom: 0px;
+      line-height: 0px;
+    }
+  }
 
 
-#profile-pic{
-  opacity:1;
-  position: :fixed;
-  width:225px;
-  height: 275px;
 
-}
-.ProjectBox {
-  background-color: white;
-/*  border-width: 10px;
+  .large-text {
+    font-size: 2rem;
+  }
+
+  .blue-text {
+    color: #2b90d9;
+  }
+
+  .get-details:hover {
+    color: #2b90d9;
+    cursor: pointer;
+  }
+
+
+  #profile-pic {
+    opacity: 1;
+    position: :fixed;
+    width: 225px;
+    height: 275px;
+  }
+  .ProjectBox {
+    background-color: white;
+    /*  border-width: 10px;
   border-style: solid;
   border-color: black;*/
-  padding: 0px;
-  width:2000px;
-  height: 325px;
+    padding: 0px;
+    width: 2000px;
+    height: 325px;
+  }
 
-}
+  img {
+    height: auto;
+    /* Make sure images are scaled correctly. */
+    width: 100%;
+    /* Adhere to container width. */
+    display: block;
+  }
+  .hm-blue-strong {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin: 0px;
+    vertical-align: top;
+    background-size: 100% 100%
+  }
+  /*speech bubble css*/
+  .speech-bubble {
+    position: absolute;
+    background: #000000;
+    border-radius: .4em;
+    left: 240px;
+    top: 30px;
+  }
 
-img {
-    height: auto; /* Make sure images are scaled correctly. */
-width: 100%; /* Adhere to container width. */
-display:block;
- }
-.hm-blue-strong{
-  position: relative;
-  width:250px;
-  height:250px;
-  border-style: solid;
-  border-color: black;
-  border-width: 2px;
-margin: 0px;
-  vertical-align:top;
-  background-size: 100% 100%
-}
+  .speech-bubble:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 44px solid transparent;
+    border-right-color: #000000;
+    border-left: 0;
+    border-bottom: 0;
+    margin-top: -22px;
+    margin-left: -44px;
+  }
 
-/*speech bubble css*/
+  #speechText {
+    font-size: 50px;
+    margin: 30px;
+    color: white;
+  }
 
-.speech-bubble {
-  position: absolute;
-  background: #000000;
-  border-radius: .4em;
-  left: 240px;
-  top: 30px;
-}
-
-.speech-bubble:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 0;
-  height: 0;
-  border: 44px solid transparent;
-  border-right-color: #000000;
-  border-left: 0;
-  border-bottom: 0;
-  margin-top: -22px;
-  margin-left: -44px;
-}
-
-#speechText{
-  font-size: 50px;
-  margin: 30px;
-  color: white;
-}
-
-#speechText2{
-  font-size: 20px;
-  margin: 30px;
-  color: white;
-}
-/*margin around projects*/
-
-
-
-
-
-
-#spinText {
-  color: black;
-  font-weight: 10px;
-}
-
-/*for face spin / formatting*/
-
-#face
-  {
-    position:relative;
+  #speechText2 {
+    font-size: 20px;
+    margin: 30px;
+    color: white;
+  }
+  /*margin around projects*/
+  #spinText {
+    color: black;
+    font-weight: 10px;
+  }
+  /*for face spin / formatting*/
+  #face {
+    position: relative;
     transition: .5s all;
     height: 250px;
     width: 250px;
-
-
   }
 
-#face:hover{
-  transform:rotate(360deg);
+  #face:hover {
+    transform: rotate(360deg);
+  }
+
+  #bottomDiv {
+    top: -100px;
+    right: 500px;
+  }
 }
 
-#bottomDiv {
-  top: -100px;
-  right: 500px;
+@media only screen and (max-width: 1000px) {
+  /*CSS for smaller screens*/
+}
+
+@media only screen and (max-width: 480px) {
+/*CSS for mobile*/
+  #main-pic {
+    position: relative;
+    bottom: 50px;
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 1;
+    z-index: -5;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+  }
+
+    #logo {
+    position: relative;
+    bottom: 50px;
+    max-height: 100%;
+    max-width: 100%;
+  }
+#navItem {
+  font-size: 25px;
+}
+
+.p-2 {
+  position: relative;
+  right: 30px;
 }
 
 
-
-
-
+}
