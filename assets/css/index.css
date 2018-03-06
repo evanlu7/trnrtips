@@ -117,14 +117,9 @@
     align-items: flex-end;
   }
 
-  #btnLogout {
-    position: absolute;
-    left: 600px;
-  }
 
-  #financeChartExample {
-    height: 500px;
-  }
+
+
 
 
 
@@ -142,14 +137,14 @@
     padding: 9px 10px !important;
   }
 
-  @media (min-width: 768px) {
+/*  @media (min-width: 768px) {*/
     .navbar-nav>li>a {
       /* (80px - line-height of 27px) / 2 = 26.5px */
       padding-top: 0px;
       padding-bottom: 0px;
       line-height: 0px;
     }
-  }
+  
 
 
 
@@ -167,21 +162,6 @@
   }
 
 
-  #profile-pic {
-    opacity: 1;
-    position: :fixed;
-    width: 225px;
-    height: 275px;
-  }
-  .ProjectBox {
-    background-color: white;
-    /*  border-width: 10px;
-  border-style: solid;
-  border-color: black;*/
-    padding: 0px;
-    width: 2000px;
-    height: 325px;
-  }
 
   img {
     height: auto;
@@ -200,62 +180,6 @@
     margin: 0px;
     vertical-align: top;
     background-size: 100% 100%
-  }
-  /*speech bubble css*/
-  .speech-bubble {
-    position: absolute;
-    background: #000000;
-    border-radius: .4em;
-    left: 240px;
-    top: 30px;
-  }
-
-  .speech-bubble:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 0;
-    height: 0;
-    border: 44px solid transparent;
-    border-right-color: #000000;
-    border-left: 0;
-    border-bottom: 0;
-    margin-top: -22px;
-    margin-left: -44px;
-  }
-
-  #speechText {
-    font-size: 50px;
-    margin: 30px;
-    color: white;
-  }
-
-  #speechText2 {
-    font-size: 20px;
-    margin: 30px;
-    color: white;
-  }
-  /*margin around projects*/
-  #spinText {
-    color: black;
-    font-weight: 10px;
-  }
-  /*for face spin / formatting*/
-  #face {
-    position: relative;
-    transition: .5s all;
-    height: 250px;
-    width: 250px;
-  }
-
-  #face:hover {
-    transform: rotate(360deg);
-  }
-
-  #bottomDiv {
-    top: -100px;
-    right: 500px;
   }
 }
 
@@ -292,8 +216,36 @@
   right: 30px;
 }
 
-#section3 {
-}
+    .navbar-nav>li>a {
+      /* (80px - line-height of 27px) / 2 = 26.5px */
+      padding-top: 0px;
+      padding-bottom: 0px;
+      line-height: 0px;
+    }
+
+  .navbar-brand {
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+  }
+
+  .navbar-brand a:hover {}
+
+  .navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 23px;
+    padding: 9px 10px !important;
+  }
+
+  .fa-5x {
+    max-height: 50px;
+  }
+
+    .item {
+    margin: 0 0px;
+    width: 33%;
+    max-width: 180px;
+  }
 
 
 }
